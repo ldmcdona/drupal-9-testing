@@ -1,0 +1,6 @@
+weather_module:
+  path: '/weather'
+  defaults:
+    _controller: 'Drupal\weather_module\Controller\WeatherController::weather'
+  requirements:
+    _permission: 'access content'
